@@ -1,0 +1,77 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "179b46ab-409d-4c03-9e06-8d61a88729ee": {
+        "id": "179b46ab-409d-4c03-9e06-8d61a88729ee",
+        "parent": null,
+        "name": "Retest683second",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "218ae173-8edf-484d-82a9-09683cb6ca07"
+        ],
+        "isRemovable": false,
+        "filePath": "Retest683second"
+      },
+      "218ae173-8edf-484d-82a9-09683cb6ca07": {
+        "id": "218ae173-8edf-484d-82a9-09683cb6ca07",
+        "parent": "179b46ab-409d-4c03-9e06-8d61a88729ee",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Retest683second/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "179b46ab-409d-4c03-9e06-8d61a88729ee",
+    "openFiles": [
+      "218ae173-8edf-484d-82a9-09683cb6ca07"
+    ],
+    "currentFileId": "218ae173-8edf-484d-82a9-09683cb6ca07",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "Retest683second",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1565860088201
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "Retest683second",
+      "url": "https://github.com/Kumudikatest/Retest683second"
+    }
+  }
+}
