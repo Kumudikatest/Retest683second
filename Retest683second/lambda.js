@@ -1,4 +1,4 @@
 exports.handler = function(event, context, callback) {
     
-    callback(null, {"message": "Successfully"});
+    callback(null, {"message": "hirudinee"});
 }
