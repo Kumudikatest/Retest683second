@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "Retest683second/lambda.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"hirudinee liyaange\"});\n}",
+        "code": "exports.handler = function (event, context, callback) {\n\n    callback(null, { \"message\": \"Succe\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -65,7 +65,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1565860993310
+    "lastSave": 1565861036071
   },
   "VCS_STATE": {
     "provider": "GitHub",
